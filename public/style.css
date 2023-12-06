@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topImage {
+    width: 65%;
+    height: auto;
+    display: block;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#designCard {
+    background-color: red;
+    color: white;
+}
+
+#useExisting {
+    background-color: black;
+    color: white;
+}
+
+#inputFields {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#inputFields input, #inputFields button {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#submitBtn {
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    borde
